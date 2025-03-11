@@ -1,16 +1,37 @@
-# myapp
+# Sevice Mate
 
-A new Flutter project.
+An app that ca remind you to service your car.
+
+
+## dependecies 
+Sqflite
+
+Couportino Icons
 
 ## Getting Started
+```bash
+git clone https://github.com/Dev-Avishka/ServiceMate.git
+```
+then run 
 
-This project is a starting point for a Flutter application.
+```bash
+flutter doctor
+```
+then
+```bash
+flutter pub add
+```
+then setup the project and run
 
-A few resources to get you started if this is your first Flutter project:
+## Or if you want to download the app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### android
+```bash
+flutter build apk
+```
+### Ios
+```bash
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter build apk --split-per-abi
+
+```
